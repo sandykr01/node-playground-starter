@@ -1,4 +1,4 @@
-tabs: ['index.js', 'README.md']
+tabs: ['index.js', 'index.html']
 playground-view: terminal-editor-browser
 
 # terminals
