@@ -1,3 +1,8 @@
-tabs: ["index.js"]
-run-button: node $$file
-terminals: ["node index.js"]
+tabs: ['index.js', 'README.md']
+playground-view: terminal-editor-browser
+
+# terminals
+terminals:
+    ['touch index.js && clear && echo Are you ready pal!']
+# other config
+run-button: clear && node index.js
